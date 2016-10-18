@@ -3,10 +3,15 @@ body {
   text-align: center;
 
 }
-
+h1 {
+  font-family: "Arial";
+  color: white;
+  font-size: 40px;
+}
 h2 {
   font-family: "Arial";
   color: white;
+  font-size: 40px;
 }
 
 p {
@@ -16,5 +21,11 @@ p {
 h3 {
   color: #a142f4;
   font-size: 100;
+
+}
+
+div.image {
+  position: absolute;
+content:url(https://s-media-cache-ak0.pinimg.com/236x/96/0e/09/960e09a4fd69aae83326359312d3ded2.jpg);
 
 }
