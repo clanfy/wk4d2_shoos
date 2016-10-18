@@ -29,3 +29,12 @@ div.image {
 content:url(https://s-media-cache-ak0.pinimg.com/236x/96/0e/09/960e09a4fd69aae83326359312d3ded2.jpg);
 
 }
+
+label {
+  color: limegreen;
+  font-weight: bold;
+  display: block;
+  width: 150 px;
+
+
+}
