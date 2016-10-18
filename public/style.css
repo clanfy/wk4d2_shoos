@@ -4,30 +4,33 @@ body {
 
 }
 h1 {
-  font-family: "Arial";
+  font-family: 'Cookie', cursive;
   color: white;
   font-size: 40px;
 }
 h2 {
-  font-family: "Arial";
+  font-family: 'Cookie', cursive;
   color: white;
   font-size: 40px;
-}
-
-p {
-  color: teal;
 }
 
 h3 {
   color: #a142f4;
   font-size: 100;
-
 }
 
-div.image {
-  position: absolute;
-content:url(https://s-media-cache-ak0.pinimg.com/236x/96/0e/09/960e09a4fd69aae83326359312d3ded2.jpg);
+p {
+  color: limegreen;
+  font-family: 'Arial';
+}
 
+
+img {
+  border-radius: 25px;
+  border: 10px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
 }
 
 label {
