@@ -3,7 +3,7 @@ require 'pg'
 class SqlRunner
 
   def self.run(sql)
-
+    
    begin 
     db = PG.connect ({dbname: 'shoos_shop', host: 'localhost'})
     result = db.exec(sql)

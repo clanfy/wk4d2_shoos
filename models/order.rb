@@ -1,4 +1,4 @@
-# require_relative '../sql_runner'
+require_relative '../db/sql_runner'
 
 class Order
 
@@ -31,7 +31,7 @@ class Order
       '#{@first_name}', 
       '#{@last_name}', 
       '#{@address}', 
-      #{@quantity}
+      #{@quantity},
       '#{@size}'
       ) RETURNING * ; "
       order_data = SqlRunner.run(sql)

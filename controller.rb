@@ -9,6 +9,11 @@ end
 
 post '/order' do
   @order = Order.new(params)
-  # @order.save()
+  @order.save()
   erb(:create)
+end
+
+get '/orders' do
+  @orders = Order.all()
+  erb(:index)
 end
